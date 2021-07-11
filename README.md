@@ -1,8 +1,8 @@
-# Source for jtt.coffee
+## Source for jtt.coffee
 
 jtt.coffee is my personal website mainly used for coffee related repository.
 
-## Some boring info:
+### Some boring info:
 
 * The website is hosted on a VPS with Cloudflare set up as the CDN.
 * The design looks exactly like a [Notion](https://notion.so) site, because it *was*.
