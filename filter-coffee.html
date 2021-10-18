@@ -3,34 +3,38 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <!-- Chrome, Firefox OS and Opera Status Bar Color -->
-  <meta name="theme-color" content="#FFFFFF">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- Chrome, Firefox OS and Opera Status Bar Color -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+<link rel="stylesheet" type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
+<link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+<link rel="stylesheet" type="text/css" href="css/notablog.css">
+<!-- Favicon -->
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;☕&lt;/text&gt;&lt;/svg&gt;">
+
+<style>
+  :root {
+    font-size: 18px;
+  }
+</style>
+  <title>Entry to Filter Coffee&nbsp;|&nbsp;JT&#39;s Coffee Repository</title>
+  <meta property="og:type" content="blog">
   <meta property="og:title" content="Entry to Filter Coffee">
   
-  <meta name="description" content="Introduction to filter coffee brewing with Malaysian context (work in progress!)">
-  <meta property="og:description" content="Introduction to filter coffee brewing with Malaysian context (work in progress!)">
+    <meta name="description" content="Introduction to filter coffee brewing with Malaysian context (work in progress!)">
+    <meta property="og:description" content="Introduction to filter coffee brewing with Malaysian context (work in progress!)">
   
-  <meta property="og:type" content="blog">
-  <title>Entry to Filter Coffee</title>
-  <!-- Favicon -->
   
-  <link rel="shortcut icon" href="☕">
+    <meta property="og:image" content="https://jtt.coffee/images/ico/coffee-filter.png">
   
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.19.0/themes/prism.min.css">
-  <link rel="stylesheet" type="text/css" href="css/SourceSansPro.css">
-  <link rel="stylesheet" type="text/css" href="css/notablog.css">
-  <link rel="stylesheet" type="text/css" href="css/theme.css">
   <style>
-    :root {
-      font-size: 18px;
-    }
-
     .DateTagBar {
       margin-top: 1.0rem;
     }
@@ -39,70 +43,92 @@
 
 <body>
   <nav class="Navbar">
-    <a href="index.html">
-      <div class="Navbar__Btn"><span>☕</span> <span>Home</span></div>
-    </a>
-    
-    
-    
-    
-    
-    
-    
-    
-    <span class="Navbar__Delim">&centerdot;</span>
-    <a href="brew-water.html">
-      <div class="Navbar__Btn"><span>💧</span> <span>Brew Water</span></div>
-    </a>
-    
-    
-    
-    <span class="Navbar__Delim">&centerdot;</span>
-    <a href="kit.html">
-      <div class="Navbar__Btn"><span>🧑‍🔬</span> <span>My Coffee Kit</span></div>
-    </a>
-    
-    
-    
-    <span class="Navbar__Delim">&centerdot;</span>
-    <a href="about.html">
-      <div class="Navbar__Btn"><span>😀</span> <span>About</span></div>
-    </a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  </nav>
-  <header class="Header">
+  <a href="index.html">
+    <div class="Navbar__Btn">
       
+        <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;☕&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+      
+      <span>Home</span>
+    </div>
+  </a>
+  
+    
+  
+    
+  
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="brew-water.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;💧&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+          
+          <span>Brew Water</span>
+        </div>
+      </a>
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="kit.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;🔬&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+          
+          <span>My Coffee Kit</span>
+        </div>
+      </a>
+    
+  
+    
+      <span class="Navbar__Delim">&centerdot;</span>
+      <a href="about.html">
+        <div class="Navbar__Btn">
+          
+            <span><img class="inline-img-icon" src="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text text-anchor=%22middle%22 dominant-baseline=%22middle%22 x=%2250%22 y=%2255%22 font-size=%2280%22&gt;😀&lt;/text&gt;&lt;/svg&gt;"></span>&nbsp;
+          
+          <span>About</span>
+        </div>
+      </a>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+</nav>
+  <header class="Header">
+    
     <div class="Header__Spacer Header__Spacer--NoCover">
     </div>
     
-    <div class="Header__Icon"><span><img class="inline-img-icon" src="https://jtt.coffee/images/ico/coffee-filter.png"></span></div>
+      <div class="Header__Icon">
+        <span><img class="inline-img-icon" src="https://jtt.coffee/images/ico/coffee-filter.png"></span>
+      </div>
     
     <h1 class="Header__Title">Entry to Filter Coffee</h1>
+    
+      <div class="DateTagBar">
         
-    <div class="DateTagBar">
-          
-          
-      <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--orange">
+        
+          <span class="DateTagBar__Item DateTagBar__Tag DateTagBar__Tag--orange">
             <a href="tag/filter.html">filter</a>
           </span>
-          
-        </div>
         
+      </div>
+    
   </header>
-      <article id="https://www.notion.so/c77a23146de744bbb563fa6a851bab5c" class="PageRoot"><h2 id="https://www.notion.so/cadaa1e3dd4e4e11be49c74ff9bf493e" class="ColorfulBlock ColorfulBlock--BgGreen Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/cadaa1e3dd4e4e11be49c74ff9bf493e"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Introduction</span></span></h2><div id="https://www.notion.so/6a268371f8bc4beca75c290578740ada" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">
+  <article id="https://www.notion.so/c77a23146de744bbb563fa6a851bab5c" class="PageRoot"><h2 id="https://www.notion.so/cadaa1e3dd4e4e11be49c74ff9bf493e" class="ColorfulBlock ColorfulBlock--BgGreen Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/cadaa1e3dd4e4e11be49c74ff9bf493e"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">Introduction</span></span></h2><div id="https://www.notion.so/6a268371f8bc4beca75c290578740ada" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">
 This post will cover a few fundamental topics to guide you into the world of filter coffee. There are multiple scenarios that I imagined for different individual’s preferences and criteria. To keep it simple, there are only 3 fundamental topics. An advanced guide about taking your filter coffee to next level will be covered in a separate post, that you can read if you want to invest more time or effort. Do take note that this guide is tailored for Malaysians (and its neighbours), so the product availability and currency are adjusted for the Malaysian market.</span></span></p></div><div id="https://www.notion.so/2e723ec15b5a4f4b9e518757e79988ae" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div><h2 id="https://www.notion.so/89fb5d1837114997a6346bb25730d767" class="ColorfulBlock ColorfulBlock--BgGreen Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/89fb5d1837114997a6346bb25730d767"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">1.0 Equipment</span></span></h2><div id="https://www.notion.so/404635cbf9e045369319b89da24c861e" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">
 This is a guideline to help you choose your first filter coffee equipment, tailored to your budget and effort appetite as well as your expectation towards the taste of coffee. Do bear in mind that there are always new brands and models releasing every now and then. If you find a better alternative to my recommendations below, please leave your 
 comment!
@@ -137,8 +163,8 @@ There are so many brewing guides out there, I am not going to create yet another
 Here I link up a few videos that I personally recommend and I learnt a lot from them:</span></span></p></div><ul class="BulletedListWrapper"><li id="https://www.notion.so/2feb5f4785854e1eb30110f79973e478" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.youtube.com/watch?v=ipB6P1uzNYM"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">James Hoffmann – Coffee Brewing Ratios Explained</strong></a></span><span class="SemanticString"> (High recommended as a foundation)</span></span></li><li id="https://www.notion.so/05cc992b468840b8a56352b6c99a788d" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.youtube.com/watch?v=AI4ynXzkSQo">James Hoffmann – The Ultimate V60 Technique</a></span></span></li><li id="https://www.notion.so/02f5a9d16ff7472fb98031ab9fbe2d84" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString"><mark class="SemanticString__Fragment SemanticString__Fragment--HighlightedColor SemanticString__Fragment--ColorBlue"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.youtube.com/watch?v=BjsGf3R9mc0&amp;t=111s">Scott Rao’s V60 Method</a></mark></span></span></li><li id="https://www.notion.so/f27c753534924d65a28f99fe0ef38bf1" class="BulletedList"><span class="SemanticStringArray"><span class="SemanticString">James Hoffmann – </span><span class="SemanticString"><a class="SemanticString__Fragment SemanticString__Fragment--Link" href="https://www.youtube.com/watch?v=st571DYYTR8">The Ultimate French Press Technique</a></span><span class="SemanticString">
 </span></span></li></ul><div id="https://www.notion.so/f7043962fa5e4c7caec7aaa998744cb8" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"><span class="SemanticString">I will share my personal brewing method later, however in a nutshell I  basically follow the James Hoffmann’s method with some variations. Hope this post is helpful for you to kickstart your home brewing journey!</span></span></p></div><div id="https://www.notion.so/7b081dab0d054cf9adb6fdf5dbf589c4" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div></article>
   <footer class="Footer">
-        <div>&copy; JT's Coffee Repository 2021</div>
-    </footer>
+  <div>&copy; JT&#39;s Coffee Repository 2021</div>
+</footer>
 </body>
 
 </html>
